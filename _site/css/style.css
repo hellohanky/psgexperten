@@ -1,0 +1,279 @@
+body{
+	background: #f1f2f2;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+/* Default header styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #222222;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4; }
+  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: 60%;
+    color: #6f6f6f;
+    line-height: 0; }
+
+h1 { 
+	font-family: 'Raleway', Arial, serif; 
+	font-weight: 300; 
+	font-size: 3em; 
+	color:#111f66; 
+	text-align: center;
+	margin:30px 0px 10px 0px;
+	text-rendering: optimizeLegibility;
+}
+
+h2 {
+  font-size: 1.6875rem; }
+
+h3 {
+  font-size: 1.375rem; }
+
+h4 {
+  font-size: 1em;
+  margin-bottom: 1.4rem; }
+
+h5 {
+  font-size: 1rem;
+  margin-bottom: 0rem; }
+
+h6 {
+  font-size: 1rem; }
+
+p{font-weight: 300;
+  margin-bottom:32px;}
+
+p.ingress {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-bottom:40px;
+  font-weight: 100;
+  text-rendering: optimizeLegibility;
+}
+
+p.price {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-bottom:40px;
+  font-weight: 100;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+}
+
+nav.top-bar {
+  text-align:center;
+}
+section.top-bar-section {
+  display: inline-block;
+}
+
+.bg-white{
+  background:#fff;
+  margin-top:30px;
+}
+
+header{
+  display: block;
+  background-image: url('../img/header.jpg');
+  background-repeat:no-repeat;
+  background-position:center; 
+  height:350px;
+  background-color: #142247;
+}
+
+.game{
+	padding:25px 10px;
+	background:#fff;
+	margin-bottom:3px;
+}
+
+.label{
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: 500;
+}
+.date{
+	display: block;
+	margin-top:5px;
+}
+
+.team-logo{
+	margin:20px 20px;
+}
+
+.promo{
+	padding:30px;
+	text-align: center;
+	background: #fff;
+	margin-bottom:20px;
+}
+
+.promo .description{
+	display: block;
+	margin-top:20px;
+}
+
+.feature{
+	background-image: url('../img/feature.png');
+	background-repeat: no-repeat;
+	background-size: 70px;
+	background-position: 0px 10px;
+	padding-left:90px;
+	font-size: 1rem;
+	line-height: 1.5em;
+	margin-bottom:30px;
+}
+
+.row.full-width {
+  width: 100%;
+  max-width: 100%;
+  padding:20px;
+  background:#ccc;
+  margin-top:60px;
+}
+
+img.circle{
+	display: block;
+	border-radius: 300px;
+}
+
+
+table {
+  background: white;
+  margin-bottom: 60px;
+  border: solid 0px #dddddd; }
+  table caption {
+    background: transparent;
+    color: #222222;
+    font-size: 1em;
+    font-weight: bold; }
+  table thead {
+    background: whitesmoke; }
+    table thead tr th,
+    table thead tr td {
+      font-weight: 500;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 0.7em;
+      color: #222222; }
+  table tfoot {
+    background: whitesmoke; }
+    table tfoot tr th,
+    table tfoot tr td {
+      padding: 0.5rem 0.625rem 0.625rem;
+      font-size: 0.875rem;
+      font-weight: bold;
+      color: #222222; }
+  table tr th,
+  table tr td {
+    padding: 0.5625rem 0.625rem;
+    font-size: 1em;
+    color: #222222;
+    text-align: left; }
+  table tr.even, table tr.alt, table tr:nth-of-type(even) {
+    background: #f9f9f9; }
+  table thead tr th,
+  table tfoot tr th,
+  table tfoot tr td,
+  table tbody tr th,
+  table tbody tr td,
+  table tr td {
+    display: table-cell;
+    line-height: 1.125rem; }
+
+
+    button, .button {
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  display: inline-block;
+  padding-top: 0.7rem;
+  padding-right: 0.9rem;
+  padding-bottom: 0.7rem;
+  padding-left: 0.9rem;
+  background-color: #d20d26;
+  color: white;
+    transition: background-color 0ms ease-out; }
+
+  button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #e40f2a; }
+  button:hover, button:focus, .button:hover, .button:focus {
+    color: white; }
+
+    button.large{padding:30px;}
+
+/* small displays */
+@media only screen and (max-width: 40em){
+
+
+body{
+  background: #f6f6f6;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+nav.top-bar {
+  text-align:center;
+}
+section.top-bar-section {
+  display: block;
+}
+
+header{
+  height:250px;
+  padding-top:80px;
+}
+
+.psg-experten-logo{
+  width:150px;
+  height:120px;
+  background-size:100%;
+  background-repeat: no-repeat; 
+  background-image:url('../img/psg-experten-logo.png');
+  margin: 0 auto;
+}
+
+.psg-experten-logo span{
+  display: none;
+}
+
+
+.team-logo{
+	display: none;
+}
+
+p.ingress {
+  font-size: 1em;
+  line-height: 1.45em;
+  margin-bottom:40px;
+  font-weight: 100;
+  text-rendering: optimizeLegibility;
+}
+
+h1 { 
+	font-family: 'Raleway', Arial, serif; 
+	font-weight: 300; 
+	font-size: 2em;
+  line-height: 1.2em;
+	color:#111f66; 
+	text-align: center;
+	margin:20px 0px 10px 0px;
+	text-rendering: optimizeLegibility;
+}
+}
