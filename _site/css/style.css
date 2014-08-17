@@ -5,6 +5,8 @@ body{
 	font-size: 18px;
 }
 
+
+
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
@@ -76,7 +78,10 @@ section.top-bar-section {
 
 .bg-white{
   background:#fff;
-  margin-top:30px;
+}
+
+.bg-grey{
+  background:#e5eaef;
 }
 
 header{
@@ -86,6 +91,11 @@ header{
   background-position:center; 
   height:350px;
   background-color: #142247;
+}
+
+#checkout{
+  background-image: url('/img/bg-clouds.png');
+  padding:40px;
 }
 
 .game{
@@ -131,12 +141,25 @@ header{
 	margin-bottom:30px;
 }
 
-.row.full-width {
-  width: 100%;
-  max-width: 100%;
-  padding:20px;
-  background:#ccc;
-  margin-top:60px;
+.center{
+  text-align: center;
+}
+
+#checkout .row {
+  max-width: 32.5rem;
+}
+
+.checkout-card-header{
+  width:100%;
+  display: block;
+  padding:15px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;  
+}
+
+.checkout-card{
+  padding:60px;
 }
 
 img.circle{
@@ -147,7 +170,7 @@ img.circle{
 
 table {
   background: white;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   border: solid 0px #dddddd; }
   table caption {
     background: transparent;
@@ -189,7 +212,40 @@ table {
     line-height: 1.125rem; }
 
 
-    button, .button {
+  table tr td.center-logo {
+    padding: 0.5625rem 0.625rem;
+    font-size: 1em;
+    color: #222222;
+    text-align: center; }
+
+.center-logo img{padding:12px 0px;}
+
+table.matchd {
+    background: white;
+    margin-bottom: 20px;
+    border-top: solid 1px #d4d4d4; }
+
+table.matchd tr th,
+table.matchd tr td {
+    padding: 0em 0em;
+    font-size: 1em;
+    color: #222222;
+    text-align: left; }
+table.matchd tr.even, table tr.alt, table.matchd tr:nth-of-type(even) {
+    background: #fff; }
+table.matchd thead tr th,
+table.matchd tfoot tr th,
+table.matchd tfoot tr td,
+table.matchd tbody tr th,
+table.matchd tbody tr td,
+table.matchd tr td {
+    display: table-cell;
+    line-height: 3.5em; 
+    border-bottom:solid 1px #d4d4d4;}
+
+
+
+button, .button {
   cursor: pointer;
   margin: 0;
   position: relative;
@@ -215,7 +271,6 @@ table {
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
 
-    button.large{padding:30px;}
 
 /* small displays */
 @media only screen and (max-width: 40em){
