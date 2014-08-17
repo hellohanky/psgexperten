@@ -1262,7 +1262,7 @@ meta.foundation-mq-topbar {
   height: 60px; /*45px orginal */
   line-height: 45px;
   position: relative;
-  background: #333333;
+  background: #0F122A;
   margin-bottom: 0; }
   .top-bar ul {
     margin-bottom: 0;
@@ -1338,7 +1338,7 @@ meta.foundation-mq-topbar {
     height: auto;
     background: transparent; }
     .top-bar.expanded .title-area {
-      background: #333333; }
+      background: #0F122A; }
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
       .top-bar.expanded .toggle-topbar a::after {
@@ -1363,7 +1363,7 @@ meta.foundation-mq-topbar {
     height: 1px;
     width: 100%; }
   .top-bar-section ul li {
-    background: #333333; }
+    background: #0F122A; }
     .top-bar-section ul li > a {
       display: block;
       width: 100%;
@@ -1446,8 +1446,8 @@ meta.foundation-mq-topbar {
         .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
           color: white; }
     .top-bar-section ul li:hover:not(.has-form) > a {
-      background-color: #555555;
-      background: #272727;
+      background-color: #212335;
+      background: #212335;
       color: white; }
     .top-bar-section ul li.active > a {
       background: #008cba;
@@ -2601,11 +2601,11 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #111f66;
+  color: #0004C3;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #0078a0; }
+    color: #292EFF; }
   a img {
     border: none; }
 

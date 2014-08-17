@@ -1,5 +1,5 @@
 body{
-	background: #f1f2f2;
+	background: #EFF0F6;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0; }
 
 h1.logo{
-  background-image: url('../img/psg-experten-logo-menu.png');
+  background-image: url('/img/psg-experten-logo-menu.png');
   background-repeat: no-repeat;
   width:182px;
   height:20px;
@@ -95,7 +95,7 @@ section.top-bar-section {
 
 header{
   display: block;
-  background-image: url('../img/header.jpg');
+  background-image: url('/img/header.jpg');
   background-repeat:no-repeat;
   background-position:center; 
   height:350px;
@@ -103,7 +103,8 @@ header{
 }
 
 #checkout{
-  background-image: url('img/bg-clouds.png');
+  background-image: url('/img/bg-checkout.jpg');
+  /*background-image: url('/img/bg-clouds.png');*/
   padding:40px;
 }
 
@@ -140,7 +141,7 @@ header{
 }
 
 .feature{
-	background-image: url('../img/feature.png');
+	background-image: url('/img/feature.png');
 	background-repeat: no-repeat;
 	background-size: 70px;
 	background-position: 0px 10px;
@@ -187,7 +188,7 @@ table {
     font-size: 1em;
     font-weight: bold; }
   table thead {
-    background: whitesmoke; }
+    background: #EFF0F6; }
     table thead tr th,
     table thead tr td {
       font-weight: 500;
@@ -210,7 +211,7 @@ table {
     color: #222222;
     text-align: left; }
   table tr.even, table tr.alt, table tr:nth-of-type(even) {
-    background: #f9f9f9; }
+    background: #fff; }
   table thead tr th,
   table tfoot tr th,
   table tfoot tr td,
@@ -218,28 +219,43 @@ table {
   table tbody tr td,
   table tr td {
     display: table-cell;
-    line-height: 1.125rem; }
+    line-height: 1.125rem; 
+    border-bottom: solid 3px #EFF0F6;}
 
 
-  table tr td.center-logo {
-    padding: 0.5625rem 0.625rem;
-    font-size: 1em;
-    color: #222222;
-    text-align: center; }
+table.fixtures tr:hover td {
+  background-color: #FAFBFC;
+  cursor:pointer;
+}
 
-.center-logo img{padding:12px 0px;}
+table tr td.center-logo {
+  padding: 0.5625rem 0.625rem;
+  font-size: 1em;
+  color: #222222;
+  text-align: center;
+}
+
+tbody.checkout-logos tr td, table.checkout-logos tr td {
+  display: table-cell;
+  line-height: 1.125rem;
+  border-bottom: solid 0px #EFF0F6;
+}
+
+.center-logo img{
+  padding:12px 0px;
+}
 
 table.matchd {
-    background: white;
-    margin-bottom: 20px;
-    border-top: solid 1px #d4d4d4; }
+  background: white;
+  margin-bottom: 20px;
+  border-top: solid 1px #DDDFEB; }
 
 table.matchd tr th,
 table.matchd tr td {
     padding: 0em 0em;
     font-size: 1em;
     color: #222222;
-    text-align: left; }
+    text-align: left;}
 table.matchd tr.even, table tr.alt, table.matchd tr:nth-of-type(even) {
     background: #fff; }
 table.matchd thead tr th,
@@ -250,7 +266,7 @@ table.matchd tbody tr td,
 table.matchd tr td {
     display: table-cell;
     line-height: 3.5em; 
-    border-bottom:solid 1px #d4d4d4;}
+    border-bottom:solid 1px #DDDFEB;}
 
 
 
@@ -284,9 +300,8 @@ button, .button {
 /* small displays */
 @media only screen and (max-width: 40em){
 
-
 body{
-  background: #f6f6f6;
+  background: #EFF0F6;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -294,6 +309,7 @@ body{
 
 nav.top-bar {
   text-align:center;
+  text-align: left;
 }
 section.top-bar-section {
   display: block;
@@ -309,14 +325,13 @@ header{
   height:120px;
   background-size:100%;
   background-repeat: no-repeat; 
-  background-image:url('../img/psg-experten-logo.png');
+  background-image:url('/img/psg-experten-logo.png');
   margin: 0 auto;
 }
 
 .psg-experten-logo span{
   display: none;
 }
-
 
 .team-logo{
 	display: none;
@@ -330,7 +345,7 @@ p.ingress {
   text-rendering: optimizeLegibility;
 }
 
-h1 { 
+h2 { 
 	font-family: 'Raleway', Arial, serif; 
 	font-weight: 300; 
 	font-size: 2em;
@@ -340,4 +355,24 @@ h1 {
 	margin:20px 0px 10px 0px;
 	text-rendering: optimizeLegibility;
 }
+
+table tfoot tr th,
+table tfoot tr td,
+table tbody tr th,
+table tbody tr td,
+table tr td {
+  display: table-cell;
+  line-height: 2.8rem; 
+  border-bottom: solid 3px #EFF0F6;
+}
+
+/*#checkout .row {
+  max-width: 52.5rem;
+}*/
+
+#checkout{
+  background-image: url('/img/bg-clouds.png');
+  padding:0px;
+}
+
 }
