@@ -79,7 +79,7 @@ p.price {
 }
 
 nav.top-bar {
-  text-align:center;
+  text-align:right;
 }
 section.top-bar-section {
   display: inline-block;
@@ -295,6 +295,19 @@ button, .button {
     background-color: #e40f2a; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
+
+
+  .full-width{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: initial;
+  }
+
+.footer{
+  background: #b8bac5;
+  padding:20px;
+}
 
 
 /* small displays */
